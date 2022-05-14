@@ -18,16 +18,16 @@
         </div>
         <nav>
             <ul class="container">
-                <li> <a href="#"> Who we are?</a> </li>
-                <li> <a href="#"> Services</a> </li>
-                <li> <a href="#">Portfolio</a> </li>
-                <li> <a href="#">Contact</a> </li>
-                <li> <a href="#">Email Us</a> </li>
+                <li> <a href="#who-we-are"> Who we are?</a> </li>
+                <li> <a href="#services"> Services</a> </li>
+                <li> <a href="#portfolio">Portfolio</a> </li>
+                <li> <a href="#location">Location</a> </li>
+                <li> <a href="#email">Email Us</a> </li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="container align-center">
+        <section class="container align-center" id="who-we-are">
             <h2>Who we are?</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             <p>Mauris convallis sit amet diam euismod malesuada.</p>
@@ -37,27 +37,12 @@
                 <h3><strong>Lorem ipsum</strong></h3>
                 <img class="img-margin float-left" src="img/1.jpg" sizes="h=60px" alt="Could be a banner" width="200" height="200">
                 <p>
+                    <img src="img/1.jpg" sizes="h=60px" alt="Could be a banner" width="200" height="200">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad
-                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure
-                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                    sint occaecat
-                    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad
-                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure
-                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                    sint occaecat
-                    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad
-                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure
-                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                    sint occaecat
-                    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.
                 </p>
             </article>
             <article class="grid2">
@@ -76,20 +61,13 @@
             <article class="grid3">
                 <h3><strong>Lorem ipsum</strong></h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                    ea
-                    commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                    nulla
-                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-                    anim
-                    id est
-                    laborum.</p>
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.</p>
             </article>
         </section>
-        <section class="white-bg">
+        <section class="white-bg" id="services">
             <h2>Our Services</h2>
             <h3>Services 1</h3>
             <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
@@ -104,7 +82,7 @@
             <h3>Services 6</h3>
             <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
         </section>
-        <section class="container align-center">
+        <section class="container align-center" id="portfolio">
             <h2>Portfolio</h2>
             <h3><span>There are success project created by us</span></h3>
             <div class="portafolio-imgs">
@@ -119,30 +97,57 @@
                 <img src="img/10.jpg" alt="Could be a banner">
             </div>
         </section>
+
+        <div class="align-center" id="location">
+            <h2>Location</h2>
+            <p>You can find us</p>
+            <h4>Head Office</h4>
+            <p><i>12345 Blank Street</i></p>
+            <p><i>Phone: <a href="">2456-134-321</i></a></p>
+            <address>
+                <p><i>Email Address: <a href="">info@domain.com</i></a></p>
+            </address>
+            <h4>Emea</h4>
+            <p><i>Carrer de Sant Joan de la Salle, 42 08022 Barcelona</i></p>
+            <p><i>Phone: <a href=""> 932 90 24 74</i></a></p>
+            <p><i>Email Address: <a href="">info@salleurl.edu</a></i></p>
+        </div>
+        <div class="align-center" id="email">
+            <h3>Email Us</h3>
+            <form>
+                <table class="align-center">
+                    <tbody>
+                        <tr>
+                            <td><label>Name: * </label></td>
+                            <td><input type="text" name="name" for="Ask name"></td>
+                        </tr>
+                        <tr>
+                            <td><label>Phone: </label></td>
+                            <td><input type="text" name="phone" for="Ask phone"></td>
+                        </tr>
+                        <tr>
+                            <td><label>Subject: * </label></td>
+                            <td><input type="text" name="subject"></td>
+                        </tr>
+                        <tr>
+                            <td><label>Message: * </label></td>
+                            <td><textarea class="message_box"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><button>Send</button></td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </div>
     </main>
-    <footer>
-        <h2>Location</h2>
-        <p><strong>You can find us:</strong></p>
-        <h4>Head Office</h4>
-        <p><i>12345 Blank Street</i></p>
-        <p><i>Phone: <a href="">2456-134.321</i></a></p>
-        <address>
-            <p><i>Email Address: <a href="">info@domain.com</i></a></p>
-        </address>
-        <h4>Emea</h4>
-        <p><i>Carrer de Sant Joan de la Salle, 42 08022 Barcelona</i></p>
-        <p><i>Phone: <a href=""> 932 90 24 74</i></a></p>
-        <p><i>Email Address: <a href="">info@salle.edu</a></i></p>
-        <h3>Email Us</h3>
-        <form>
-            <label>Nombre*: </label><input type="text" name="nombre" for="Ask name"></label><br>
-            <label>Email*: </label><input type="Password" name="Password"></label><br>
-            <label>Phone*: </label><input type="text" name="nombre" for="Ask name"></label><br>
-            <label>Company name*: </label><input type="Password" name="Password"></label><br>
-            <label>Subject*: <textarea rows="4" cols="50"></textarea></label></label><br>
-            <button>Send</button><br>
-        </form>
-        <p>&#169 2022 <a href="">La Salle</a>, all rights reserved.</p>
+    <footer class="footer">
+        <p>&#169 2016 <a href="#">LaSalle</a>, All Rights Reserved.</p>
     </footer>
 </body>
 
