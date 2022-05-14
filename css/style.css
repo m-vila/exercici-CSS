@@ -76,7 +76,7 @@ h3 span{
     margin-bottom: 2em;
 }
 .align-center{
-    text-align: center;
+    text-align: center !important;
 }
 
 .white-bg{
@@ -105,3 +105,38 @@ section {
     transform: rotate(360deg)!important;
     border-radius: 50%;
 }
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.parent-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 38px;
+    grid-row-gap: 0px;
+    }
+    
+    .grid1 { grid-area: 1 / 1 / 3 / 2; }
+    .grid2 { grid-area: 1 / 2 / 2 / 3; }
+    .grid3 { grid-area: 2 / 2 / 3 / 3; }
+
+
+    .img-margin{
+        margin: 0 1em 1em 0;
+    }
+
+
+    .parent-grid h3 {
+        margin-bottom: 1em;
+    }
+
+    .parent-grid p{
+        margin-bottom: 1.3em;
+        text-align: justify;
+    }
